@@ -29,7 +29,7 @@ export function Footer() {
               <li>
                 <Link href="/technology" className="group block">
                   <span className="text-foreground group-hover:text-primary text-sm font-bold transition-colors">
-                    Horus Kernel
+                    Horus
                   </span>
                   <span className="text-muted-foreground/50 mt-1 block font-mono text-[9px] tracking-tighter uppercase">
                     // State Manager
@@ -49,7 +49,7 @@ export function Footer() {
               <li>
                 <Link href="/technology#aether" className="group block">
                   <span className="text-foreground group-hover:text-terminal text-sm font-bold transition-colors">
-                    Aether Mesh
+                    Aether
                   </span>
                   <span className="text-muted-foreground/50 mt-1 block font-mono text-[9px] tracking-tighter uppercase">
                     // Cognitive Link
@@ -59,7 +59,46 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* 3. Organization Navigation */}
+          {/* 3. Sensor Stack & Hardware */}
+          <div className="md:col-span-2">
+            <h4 className="text-primary mb-8 font-mono text-[10px] font-bold tracking-[0.3em] uppercase">
+              Hardware
+            </h4>
+            <ul className="space-y-6">
+              <li>
+                <Link href="/technology#archimedes" className="group block">
+                  <span className="text-foreground group-hover:text-primary text-sm font-bold transition-colors">
+                    Archimedes
+                  </span>
+                  <span className="text-muted-foreground/50 mt-1 block font-mono text-[9px] tracking-tighter uppercase">
+                    // Hardware Bridge
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/technology#odin" className="group block">
+                  <span className="text-foreground group-hover:text-secondary text-sm font-bold transition-colors">
+                    Odin
+                  </span>
+                  <span className="text-muted-foreground/50 mt-1 block font-mono text-[9px] tracking-tighter uppercase">
+                    // Edge Inference
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/technology#ptolemy" className="group block">
+                  <span className="text-foreground group-hover:text-primary text-sm font-bold transition-colors">
+                    Ptolemy
+                  </span>
+                  <span className="text-muted-foreground/50 mt-1 block font-mono text-[9px] tracking-tighter uppercase">
+                    // Spatial Awareness
+                  </span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* 4. Organization Navigation */}
           <div className="md:col-span-2">
             <h4 className="text-primary mb-8 font-mono text-[10px] font-bold tracking-[0.3em] uppercase">
               Organization
@@ -98,35 +137,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* 4. Sensor Stack & Hardware */}
-          <div className="md:col-span-2">
-            <h4 className="text-primary mb-8 font-mono text-[10px] font-bold tracking-[0.3em] uppercase">
-              Hardware
-            </h4>
-            <ul className="space-y-6">
-              <li>
-                <Link href="/technology#odin" className="group block">
-                  <span className="text-foreground group-hover:text-secondary text-sm font-bold transition-colors">
-                    Odin Vision
-                  </span>
-                  <span className="text-muted-foreground/50 mt-1 block font-mono text-[9px] tracking-tighter uppercase">
-                    // Edge Inference
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/technology#ptolemy" className="group block">
-                  <span className="text-foreground group-hover:text-primary text-sm font-bold transition-colors">
-                    Ptolemy
-                  </span>
-                  <span className="text-muted-foreground/50 mt-1 block font-mono text-[9px] tracking-tighter uppercase">
-                    // Spatial Awareness
-                  </span>
-                </Link>
-              </li>
-            </ul>
-          </div>
-
           {/* 5. Status & Full Social Array */}
           <div className="flex flex-col md:col-span-3 md:items-end">
             <h4 className="text-primary mb-8 font-mono text-[10px] font-bold tracking-[0.3em] uppercase">
@@ -136,7 +146,6 @@ export function Footer() {
               <span className="bg-terminal h-1 w-1 animate-pulse rounded-full" />
               UP-LINK: ACTIVE // JP_TYO_NODE
             </div>
-            {/* Restored Full Social Array */}
             <div className="flex flex-wrap gap-5 md:justify-end">
               <Github className="text-muted-foreground hover:text-primary size-4 cursor-pointer transition-colors" />
               <Linkedin className="text-muted-foreground hover:text-primary size-4 cursor-pointer transition-colors" />

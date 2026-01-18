@@ -11,6 +11,7 @@ import { AetherSpecs } from "@/components/tech/AetherSpecs";
 import { AetherMesh } from "@/components/tech/AetherMesh";
 import { OdinVision } from "@/components/tech/OdinVision";
 import { PtolemyMap } from "@/components/tech/PtolemyMap";
+import { ArchimedesBridge } from "@/components/tech/ArchimedesBridge";
 
 export default function TechnologyPage() {
   return (
@@ -117,6 +118,34 @@ export default function TechnologyPage() {
             </div>
             <div className="lg:col-span-7">
               <AetherMesh />
+            </div>
+          </div>
+        </section>
+
+        {/* Archimedes Section */}
+        <section
+          id="archimedes"
+          className="mt-32 scroll-mt-24 border-t border-white/5 pt-32"
+        >
+          <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-12">
+            <div className="order-2 lg:order-1 lg:col-span-7">
+              <ArchimedesBridge />
+            </div>
+            <div className="order-1 lg:order-2 lg:col-span-5">
+              <Badge
+                variant="outline"
+                className="border-primary/30 text-primary mb-6 font-mono text-[10px] tracking-[0.4em] uppercase"
+              >
+                Module_Archimedes // The Body
+              </Badge>
+              <h2 className="mb-6 text-4xl font-extrabold tracking-tighter uppercase sm:text-6xl">
+                Hardware <span className="text-primary">Abstraction</span>
+              </h2>
+              <p className="text-muted-foreground text-lg leading-relaxed">
+                "Archimedes facilitates the translation of high-level missions
+                into atomic physical movements, utilizing a plugin-based 'Lever'
+                system to remain device-agnostic."
+              </p>
             </div>
           </div>
         </section>
