@@ -35,9 +35,9 @@ export default function TechnologyPage() {
             Kernel Architecture
           </h1>
           <p className="text-muted-foreground mx-auto max-w-2xl text-lg leading-relaxed">
-            Project Horus separates the "Brain" from the "Body." Our C++23
-            Kernel is an isolated executive manager that ensures mission
-            continuity even if physical modules fail.
+            Project Horus separates the "Brain" from the "Body." Our Kernel is
+            an isolated executive manager that ensures mission continuity even
+            if physical modules fail.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export default function TechnologyPage() {
               <strong>State</strong> and <strong>Intent</strong>. This
               compartmentalization allows Arkhon to process mission-critical
               telemetry at sub-millisecond coordination latencies using
-              FlatBuffer zero-copy serialization.
+              zero-copy serialization.
             </p>
             <KernelSpecs />
           </div>
@@ -200,3 +200,4 @@ export default function TechnologyPage() {
     </div>
   );
 }
+
